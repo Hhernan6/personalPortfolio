@@ -1,13 +1,15 @@
 .hero {
   width: 100%;
   height: 650px;
+ 
 
   background-image: linear-gradient(
       to right,
-      rgba(10, 10, 10, 0.363),
+      rgba(28, 26, 26, 0.7),
       rgba(29, 26, 26, 0.856)
     ),
     url("/static/img/hero-image.jpg");
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

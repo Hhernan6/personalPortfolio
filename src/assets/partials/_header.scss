@@ -1,11 +1,13 @@
 .main-nav {
-  background-color: rgb(245, 243, 243);//403e3e
-  position: fixed;
-  top: 0;
+  //   background-color: rgb(245, 243, 243);//403e3e
+
+  z-index: 100;
+position: absolute;
   width: 100%;
   display: flex;
   align-items: center;
   height: 90px;
+
 
   p {
     width: 10%;
@@ -23,12 +25,46 @@
     li {
       margin-left: 20px;
       a {
-          color: rgb(65, 63, 63);//acaaab
-          letter-spacing: 1px;
+        color: rgb(172, 165, 165); //acaaab
+        letter-spacing: 1px;
         font-size: 1.8rem;
         text-transform: uppercase;
-        font-family: 'Share', cursive;
+        font-family: "Share", cursive;
       }
     }
   }
 }
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 100px;
+  }
