@@ -1,7 +1,10 @@
 import React from 'react'
 import Hero from '../Hero/Hero'
+import Footer from '../footer/footer'
+
 const Home = () => {
     return (
+        <div>
         <main>
             <Hero />
             <div className="intro-container">
@@ -19,7 +22,11 @@ const Home = () => {
 
 </p></div>
             </div>
+
+        
         </main>
+        <Footer/>
+        </div>
     )
 }
 
