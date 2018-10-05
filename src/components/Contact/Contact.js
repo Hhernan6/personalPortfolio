@@ -9,22 +9,26 @@ return (
         <h2>Get in Touch with Me</h2>
         <p>Ask me Anything or leave any comments!</p>
         <form>
-            <div >
+            <div className="form__inputs">
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" name="firstName" />
             </div>
-            <div>
+            <div className="form__inputs">
                 <label htmlFor="firstName">email</label>
                 <input type="email" name="email" />
             </div>
-            <div>
+            <div className="form__inputs">
                 <label htmlFor="message">Message</label>
                 <textarea type="text" name="message" />
             </div>
+            <input className="submitBtn" type="submit" value="send" />
         </form>
         </div>
         <div className="contact-container__side">
-        <p>dnkjdsnfkdjsn</p>
+       
+        <span className="contact-container__email-icon"></span><p>horacio.hhh1@gmail.com</p>
+       
+        <span className="contact-container__phone-icon"></span><p>704-309-4517</p>
         </div>
      
 </div>
