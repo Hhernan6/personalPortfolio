@@ -2,31 +2,52 @@
  
     height: 500px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: space-around;
-    margin: 50px auto;
+    margin: 0 auto;
     border-top: 2px solid rgb(230, 227, 227);
+    padding: 50px;
+    
     img {
         display: block;
-        width: 40%;
-        height: 100%;
+        width: 22%;
+        height: 90%;
+        border-radius: 20px;
         
     }
     .about-container__content {
-        width: 49%;
-        border: 2px solid red;
+        width: 65%;
+        
        
         h2 {
             font-family: 'Share', cursive;
             text-transform: uppercase;
-            font-size: 2rem;
+            font-size: 2.5rem;
+            margin: 0;
         }
         p {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-family: 'Montserrat', sans-serif;
             line-height: 1.5;
             color: rgb(130, 127, 127);
+        }
+        a {
+            width: 200px;
+            text-align: center;
+            color: white;
+           text-transform: uppercase;
+            background-color: rgb(61, 61, 61);
+            font-size: 1.5rem;
+            font-family: 'Share', cursive;
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 8px rgb(123, 122, 122);
+            margin: 0 auto;
+            display: block;
+            &:hover {
+                opacity: .9;
+            }
         }
     }
 }

@@ -4,15 +4,17 @@ import React from 'react';
 const About = () => {
     return (
         <div className="about-container">
-            <img src="../../../static/img/horaciodrums.jpg" alt="Horacio"/>
+            <img src="../../../static/img/horacio.png" alt="Horacio"/>
             <div className="about-container__content">
                 <h2>About me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel diam facilisis, elementum eros vitae, laoreet erat.
-                     Nulla et elit finibus, laoreet massa ac, tincidunt lectus. Curabitur felis lacus, euismod eu cursus a, posuere in purus. 
-                     Phasellus mattis nisl a massa mollis, eget malesuada purus venenatis. Fusce suscipit risus eu auctor ultricies. Etiam porta sit amet 
-                     neque nec sollicitudin. Nullam tincidunt porttitor sem in accumsan. Nulla id quam vitae quam mollis malesuada. Proin risus ex, placerat a 
-                     vestibulum sed, ornare et justo. Quisque nec nibh 
-                    fringilla lorem pharetra suscipit. Phasellus scelerisque ipsum dolor.</p>
+                <p>I was born in Michoàcan, Mexico. I came to the United States at the age of 5. Growing up, I faced a lot of struggles, from learning a whole a
+                     whole new language. I made a lot of mistakes in the past, but it as made me a better person. I never gave up on achieving my career goals and I 
+                     can not wait to see what it hold for me. </p>
+                    <p> I was apart of the Road to Hire tech program. A non-profit organization that helps young adults achieve their goals regardless of their background.
+                        Throughtout the program, I have not only learned coding languages but, also soft skills. I'm excited to continue learning and my future as a web 
+                        developer.
+                    </p>
+                    <a href="#">View Resume</a>
             </div>
         </div>
     )
