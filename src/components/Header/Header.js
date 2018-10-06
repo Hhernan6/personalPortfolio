@@ -33,6 +33,8 @@ const Header = () => {
             <a href="#">Portfolio</a>
           </li>
         </ul>
+        <div className="main-nav__menu-icon"></div>
+       
       </nav>
     </header>
   );
