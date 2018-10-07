@@ -10,6 +10,7 @@ const Project = props => {
             title={cardsList.title}
             image={cardsList.image}
             description={cardsList.description}
+            url={cardsList.URL}
           />
         );
       })}
