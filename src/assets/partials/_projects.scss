@@ -3,16 +3,16 @@
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.893);
   &__card {
-    width: 95%;
+    width: 400px;
     margin-bottom: 50px;
     height: 400px;
     box-shadow: 0 0 30px 0 rgba(69, 68, 68, 0.653);
     position: relative;
     @media (min-width: 700px) {
-      height: 600px;
+      width: 450px;
     }
 
     img {
@@ -52,7 +52,7 @@
         font-size: 1.2rem;
         line-height: 1.5;
         @media (min-width:760px) {
-            font-size: 2rem;
+           
             max-width: 1000px;
         }
       }
