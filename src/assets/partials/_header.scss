@@ -2,7 +2,7 @@
   //   background-color: rgb(245, 243, 243);//403e3e
 
   z-index: 100;
-position: absolute;
+  position: absolute;
   width: 100%;
   display: flex;
   align-items: center;
@@ -11,9 +11,9 @@ position: absolute;
 
   &__menu-icon {
     cursor: pointer;
-     
+
     margin-right: auto;
-    background-image: url('https://i.imgur.com/IvwKc3H.png');
+    background-image: url("https://i.imgur.com/IvwKc3H.png");
     height: 50px;
     width: 50px;
 
@@ -21,15 +21,14 @@ position: absolute;
       display: none;
     }
     &::before {
-      content: 'Menu';
+      content: "Menu";
       display: block;
       position: absolute;
       right: 75px;
       top: 35px;
       font-size: 1.8rem;
-      font-family: 'Share', cursive;
-      color: white
-      
+      font-family: "Share", cursive;
+      color: white;
     }
   }
   &__links {
@@ -42,10 +41,10 @@ position: absolute;
     @media (min-width: 460px) {
       width: 95%;
     }
-  
+
     .main-nav__listItem--logo {
       margin: 0 auto 0 10px;
-     
+
       width: 90px;
       height: 60px;
       border: solid 1px #d8d6d6;
@@ -54,28 +53,22 @@ position: absolute;
       justify-content: center;
       border-radius: 4px;
 
-      
       a {
         color: rgb(247, 242, 242);
-        font-family: 'Fjalla One', cursive;
+        font-family: "Fjalla One", cursive;
         font-size: 2.4rem;
         width: 74%;
         margin: 0 auto;
-       
-    
       }
-
-
     }
     .main-nav__listItem {
       margin-left: 12px;
       display: none;
-        
-        @media (min-width: 460px) {
-          display: block;
-          
-        }
-       
+
+      @media (min-width: 460px) {
+        display: block;
+      }
+
       a {
         color: rgb(218, 216, 216); //acaaab
         letter-spacing: 1px;
@@ -89,73 +82,68 @@ position: absolute;
 
 /* Style the navbar */
 
-  /* Navbar links */
+/* Navbar links */
 
-  
-  /* Page content */
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
+/* Page content */
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(43, 43, 43);
+}
+
+.mobile-nav {
+  display: none;
+  background-color: rgb(23, 22, 22);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  &__menu-icon--mobile {
+    position: absolute;
     top: 0;
-    width: 100%;
-    background: rgb(43, 43, 43);
-  }
-  
+    right: 0;
 
-  .mobile-nav {
-    display: none;
-    background-color: rgb(23, 22, 22);
+    background-image: url("https://i.imgur.com/IvwKc3H.png");
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+    &::before {
+      content: "Menu";
+      display: block;
+      position: absolute;
+      right: 60px;
+      top: 12px;
+      font-size: 1.8rem;
+      font-family: "Share", cursive;
+      color: white;
+    }
+  }
+  ul {
+ 
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: 1000;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 0;
-    &__menu-icon--mobile {
-   
-     position: absolute;
-     top: 0;
-     right: 0;
-
-      background-image: url('https://i.imgur.com/IvwKc3H.png');
-      height: 50px;
-      width: 50px;
-      margin-right: 10px;
-      cursor: pointer;
-      &::before {
-        content: 'Menu';
-        display: block;
-        position: absolute;
-        right: 60px;
-        top: 12px;
-        font-size: 1.8rem;
-        font-family: 'Share', cursive;
-        color: white;
-        
-      }
-    }
-    ul {
-      
-      border: solid red 2px;
+    li {
       width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      li {
-        width: 100%;
-      }
-      .main-nav__listItem--margin-top {
-        margin-top: 10px;
-      }
-      a {
-        color: white;
-        font-family: 'Share', cursive;
-        font-size: 4.5rem;
-      }
+    }
+    .main-nav__listItem--margin-top {
+      margin-top: 10px;
+    }
+    a {
+      color: white;
+      font-family: "Share", cursive;
+      font-size: 4.5rem;
     }
   }
+}
