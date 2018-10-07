@@ -1,10 +1,11 @@
 .contact-container {
-  background-color: rgba(246, 246, 246, 0.925);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   height: 100%;
+
   @media (min-width: 760px) {
     flex-direction: row;
     justify-content: space-around;
@@ -53,7 +54,7 @@
         font-family: 'Share', cursive;
         padding: 16px;
         border-radius: 10px;
-        box-shadow: 2px 4px 8px rgb(123, 122, 122);
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.667);
         display: block;
         border: none;
         margin: 0 auto;
