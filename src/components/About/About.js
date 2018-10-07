@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className="about-container">
-            <img src="https://i.imgur.com/YGaTW4B.png" alt="Horacio"/>
+            <img src="https://i.imgur.com/4whMaIL.png" alt="Horacio"/>
             <div className="about-container__content">
                 <h2>About me</h2>
                 <p>I was born in Michoàcan, Mexico. I came to the United States at the age of 5. Growing up, I faced a lot of struggles, from learning a whole a
