@@ -14,9 +14,14 @@ return (
                 <input type="text" name="firstName" />
             </div>
             <div className="form__inputs">
+                <label htmlFor="lasttName">Last Name</label>
+                <input type="text" name="lastName" />
+            </div>
+            <div className="form__inputs">
                 <label htmlFor="firstName">email</label>
                 <input type="email" name="email" />
             </div>
+            
             <div className="form__inputs">
                 <label htmlFor="message">Message</label>
                 <textarea type="text" name="message" />
@@ -26,9 +31,9 @@ return (
         </div>
         <div className="contact-container__side">
        
-        <span className="contact-container__email-icon"></span><p>horacio.hhh1@gmail.com</p>
+        <p> <span className="contact-container__email-icon"></span>horacio.hhh1@gmail.com</p>
        
-        <span className="contact-container__phone-icon"></span><p>704-309-4517</p>
+       <p><span className="contact-container__phone-icon"></span>704-309-4517</p>
         </div>
      
 </div>
