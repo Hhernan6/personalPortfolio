@@ -30,7 +30,7 @@ const Header = () => {
 
       <nav className="mobile-nav" id="mobile-nav">
       <div
-          className="mobile-nav__menu-icon--mobile"
+          className=" mobile-nav__menu-icon--mobile"
           id="menu-icon"
           onClick={toggleMenu}
         />
