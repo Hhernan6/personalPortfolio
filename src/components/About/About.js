@@ -11,7 +11,7 @@ const About = () => {
                       new language. I made a lot of mistakes in the past, but it as made me a better person and I have learned from those experiences. I never gave up on achieving my career goals and I 
                      can not wait to see what the future holds for me. </p>
                     <p> I was apart of the Road to Hire tech program. A non-profit organization that helps young adults achieve their goals regardless of their background.
-                        Throughtout the program, I have not only learned coding languages but, also soft skills. I'm excited to continue learning and my future as a web 
+                        Throughout the program, I have not only learned coding languages but, also professional development skills. I'm excited to continue learning and my future as a web 
                         developer.
                     </p>
                     <a href="#">View Resume</a>
