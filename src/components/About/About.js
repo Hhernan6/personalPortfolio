@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about-container">
             <img src={require('../../assets/horacio.png')} alt="Horacio"/>
             <div className="about-container__content">
                 <h2>About me</h2>
@@ -14,7 +14,7 @@ const About = () => {
                         Throughout the program, I have not only learned coding languages but, also professional development skills. I'm excited to continue learning and for my future as a web 
                         developer.
                     </p>
-                    <a href="#">View Resume</a>
+                    <a href="facebook.com">View Resume</a>
             </div>
         </div>
     )

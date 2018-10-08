@@ -39,7 +39,7 @@ const Header = () => {
             <a href="#">About</a>
           </li>
           <li className="main-nav__listItem main-nav__listItem--margin-top">
-            <a href="#"> Contact</a>
+            <a href=""> Contact</a>
           </li>
           <li className="main-nav__listItem main-nav__listItem--margin-top">
             <a href="#">Portfolio</a>
@@ -51,16 +51,16 @@ const Header = () => {
       <nav className="main-nav" id="main-nav">
         <ul className="main-nav__links">
           <li className="main-nav__listItem--logo">
-            <a href="#">HHH</a>
+            <a href="/">HHH</a>
           </li>
           <li className="main-nav__listItem">
-            <a href="#">About</a>
+            <a href="#about-container">About</a>
           </li>
           <li className="main-nav__listItem">
-            <a href="#"> Contact</a>
+            <a href="#contact-container"> Contact</a>
           </li>
           <li className="main-nav__listItem">
-            <a href="#">Portfolio</a>
+            <a href="#project-container">Portfolio</a>
           </li>
         </ul>
         <div
