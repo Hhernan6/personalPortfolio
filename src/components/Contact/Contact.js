@@ -2,11 +2,12 @@ import React from "react";
 import Elevator from 'elevator.js'
 const Contact = () => {
 
-    // window.onload = () => {
+    // const elevatorFunction = () => {
     //     let elevator = new Elevator({
     //       element: document.querySelector('.elevator-btn'),
     //       duration: 2000 // milliseconds
     //     });
+
     //     elevator.elevate();
     //   }
   return (
@@ -46,8 +47,9 @@ const Contact = () => {
           <span className="contact-container__phone-icon" />
           704-309-4517
         </p>
+        {/* <button onClick={elevatorFunction()} className="elevator-btn">go up</button> */}
       </div>
-        <button className="elevator-btn">go up</button>
+        
     </div>
  
   );

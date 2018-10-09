@@ -25,6 +25,11 @@ const Header = () => {
         modal.style.display = 'block'
       }
   };
+
+  const scroll= (id) => {
+    var elmnt = document.getElementById(id);
+    elmnt.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+}
   return (
     <header>
 
@@ -35,7 +40,7 @@ const Header = () => {
           onClick={toggleMenu}
         />
         <ul>
-          <li className="main-nav__listItem ">
+          <li className="main-nav__listItem " onClick={() => scroll('about-container')}>
             <a href="#">About</a>
           </li>
           <li className="main-nav__listItem main-nav__listItem--margin-top">
@@ -51,7 +56,8 @@ const Header = () => {
       <nav className="main-nav" id="main-nav">
         <ul className="main-nav__links">
           <li className="main-nav__listItem--logo">
-            <a href="/">HHH</a>
+            <a href="/
+            ">HHH</a>
           </li>
           <li className="main-nav__listItem">
             <a href="#about-container">About</a>
@@ -69,6 +75,7 @@ const Header = () => {
           onClick={toggleMenu}
         />
       </nav>
+   
     </header>
   );
 };
