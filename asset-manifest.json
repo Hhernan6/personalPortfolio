@@ -1,15 +1,15 @@
 {
-  "main.css": "/personalPortfolio/static/css/main.231910bc.chunk.css",
-  "main.js": "/personalPortfolio/static/js/main.6134ed66.chunk.js",
-  "main.js.map": "/personalPortfolio/static/js/main.6134ed66.chunk.js.map",
-  "static/js/1.558921c1.chunk.js": "/personalPortfolio/static/js/1.558921c1.chunk.js",
-  "static/js/1.558921c1.chunk.js.map": "/personalPortfolio/static/js/1.558921c1.chunk.js.map",
+  "main.css": "/personalPortfolio/static/css/main.2affc296.chunk.css",
+  "main.js": "/personalPortfolio/static/js/main.cd9b0b43.chunk.js",
+  "main.js.map": "/personalPortfolio/static/js/main.cd9b0b43.chunk.js.map",
+  "static/js/1.63c22bd7.chunk.js": "/personalPortfolio/static/js/1.63c22bd7.chunk.js",
+  "static/js/1.63c22bd7.chunk.js.map": "/personalPortfolio/static/js/1.63c22bd7.chunk.js.map",
   "runtime~main.js": "/personalPortfolio/static/js/runtime~main.4699102a.js",
   "runtime~main.js.map": "/personalPortfolio/static/js/runtime~main.4699102a.js.map",
-  "static/media/App.scss": "/personalPortfolio/static/media/facebook-icon.28c9ca22.svg",
+  "static/media/App.scss": "/personalPortfolio/static/media/mail-icon.e9419679.svg",
   "static/media/horacio.png": "/personalPortfolio/static/media/horacio.b14db7a2.png",
-  "static/css/main.231910bc.chunk.css.map": "/personalPortfolio/static/css/main.231910bc.chunk.css.map",
+  "static/css/main.2affc296.chunk.css.map": "/personalPortfolio/static/css/main.2affc296.chunk.css.map",
   "index.html": "/personalPortfolio/index.html",
-  "precache-manifest.a767c937e481d832385eee83b9aab008.js": "/personalPortfolio/precache-manifest.a767c937e481d832385eee83b9aab008.js",
+  "precache-manifest.ebc041e2c9b3a0a7a7c1e890036be4bf.js": "/personalPortfolio/precache-manifest.ebc041e2c9b3a0a7a7c1e890036be4bf.js",
   "service-worker.js": "/personalPortfolio/service-worker.js"
 }
