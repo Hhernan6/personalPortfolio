@@ -26,14 +26,14 @@ const Header = () => {
     }
   };
 
-  const scroll = id => {
-    var elmnt = document.getElementById(id);
-    elmnt.scrollIntoView({
-      behavior: "smooth",
-      block: "end",
-      inline: "nearest"
-    });
-  };
+  // const scroll = id => {
+  //   var elmnt = document.getElementById(id);
+  //   elmnt.scrollIntoView({
+  //     behavior: "smooth",
+  //     block: "end",
+  //     inline: "nearest"
+  //   });
+  // };
   return (
     <header>
       <nav className="mobile-nav" id="mobile-nav">
@@ -45,12 +45,11 @@ const Header = () => {
         <ul>
           <li
             onClick={toggleMenu}
-            className="main-nav__listItem "
-            onClick={toggleMenu}>
-            <a href="#about-container">About</a>
+            className="main-nav__listItem ">
+            <a href="about-container">About</a>
           </li>
           <li onClick={toggleMenu}  className="main-nav__listItem main-nav__listItem--margin-top" >
-            <a href="#contact-container"> Contact</a>
+            <a href="contact-container"> Contact</a>
           </li>
           <li  onClick={toggleMenu} className="main-nav__listItem main-nav__listItem--margin-top" >
             <a href="#project-container">Portfolio</a>
@@ -60,7 +59,7 @@ const Header = () => {
       <nav className="main-nav" id="main-nav">
         <ul className="main-nav__links">
           <li className="main-nav__listItem--logo">
-            <a href="/ " >HHH</a>
+            <a href="/">HHH</a>
           </li>
           <li className="main-nav__listItem">
             <a href="#about-container">About</a>
@@ -69,7 +68,7 @@ const Header = () => {
             <a href="#contact-container"> Contact</a>
           </li>
           <li className="main-nav__listItem">
-            <a href="#project-container">Portfolio</a>
+            <a href="#project-container">Projects</a>
           </li>
         </ul>
         <div

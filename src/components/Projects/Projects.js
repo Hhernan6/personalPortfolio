@@ -5,7 +5,7 @@ const Project = props => {
     <div className="projects-container" id="project-container">
     <h2>Projects</h2>
       <div className="row" id="project-container">
-        {props.project.map(cardsList => {
+        {props.projects.map(cardsList => {
           return (
             <ProjectCards
               key={cardsList.title}

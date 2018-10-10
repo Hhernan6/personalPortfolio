@@ -86,26 +86,28 @@
     width: 50%;
     height: 700px;
   }
-  p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.6rem;
+  .contact-container__side__info {
+    height: auto;
+    margin-top: 30px;
+    a {
+      font-size: 1.8rem;
+      color: black;
+      font-family: 'Montserrat';
+    }
     .contact-container__email-icon {
-      background-image: url("https://i.imgur.com/sqNzGdr.png");
+      background-image: url('img/mail-icon.svg');
+      background-size: cover;
       height: 50px;
       width: 50px;
-      background-size: cover;
-
-      display: block;
-      margin: 0 auto;
+      margin: 5px auto;
     }
     .contact-container__phone-icon {
-      background-image: url("https://i.imgur.com/tcKY6wF.png");
+      background-image: url('img/phone-icon.svg');
+      background-size: cover;
       height: 50px;
       width: 50px;
-      background-size: cover;
+      margin: 5px auto;
 
-      display: block;
-      margin: 0 auto;
     }
   }
   .elevator-btn {
@@ -114,6 +116,6 @@
     width: 50px;
     cursor: pointer;
     background-size: cover;
-    background-image: url('img/arrow.svg')
+    background-image: url('img/arrow.svg');
   }
 }

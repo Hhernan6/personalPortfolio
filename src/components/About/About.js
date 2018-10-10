@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 const About = () => {
     return (
         <div className="about-container" id="about-container">
@@ -17,6 +18,7 @@ const About = () => {
                     <a href="../../../static/HoracioResume.pdf" download>View Resume</a>
             </div>
         </div>
+        
     )
 }
 

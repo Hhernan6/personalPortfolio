@@ -1,19 +1,18 @@
 import React from "react";
-import Elevator from 'elevator.js'
+import Elevator from "elevator.js";
 const Contact = () => {
+  const elevatorFunction = () => {
+    let elevator = new Elevator({
+      element: document.querySelector(".elevator-btn"),
+      duration: 2000 // milliseconds
+    });
 
-    const elevatorFunction = () => {
-        let elevator = new Elevator({
-          element: document.querySelector('.elevator-btn'),
-          duration: 2000 // milliseconds
-        });
+    elevator.elevate();
+  };
 
-        elevator.elevate();
-      }
-
-      window.onbeforeunload =  () => {
-        window.scrollTo(0, 0);
-      }
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="contact-container" id="contact-container">
       <div className="contact-container__form">
@@ -22,40 +21,37 @@ const Contact = () => {
         <form>
           <div className="form__inputs">
             <label htmlFor="firstName">First Name</label>
-            <input type="text" name="firstName" required/>
+            <input type="text" name="firstName" required />
           </div>
           <div className="form__inputs">
             <label htmlFor="lasttName">Last Name</label>
-            <input type="text" name="lastName" required/>
+            <input type="text" name="lastName" required />
           </div>
           <div className="form__inputs">
             <label htmlFor="firstName">email</label>
-            <input type="email" name="email" required/>
+            <input type="email" name="email" required />
           </div>
 
           <div className="form__inputs">
             <label htmlFor="message">Message</label>
-            <textarea type="text" name="message" required/>
+            <textarea type="text" name="message" required />
           </div>
           <input className="submitBtn" type="submit" value="send" />
         </form>
       </div>
       <div className="contact-container__side">
-        <p>
-          {" "}
-          <span className="contact-container__email-icon" />
-          horacio.hhh1@gmail.com
-        </p>
+        <div className="contact-container__side__info">
+          <div className="contact-container__email-icon" />
+          <a href="mailto:horacio.hhh1@gmail.com">horacio.hhh1@gmail.com</a>
+        </div>
 
-        <p>
-          <span className="contact-container__phone-icon" />
-          704-309-4517
-        </p>
-        <div onClick={() => elevatorFunction()} className="elevator-btn"></div>
+        <div className="contact-container__side__info">
+          <div className="contact-container__phone-icon" />
+          <a href="tel:7043094517">704-309-4517</a>
+        </div>
+        <div onClick={() => elevatorFunction()} className="elevator-btn" />
       </div>
-        
     </div>
- 
   );
 };
 
