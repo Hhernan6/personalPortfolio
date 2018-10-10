@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCards from "./ProjectCards";
 const Project = props => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="project-container">
     <h2>Projects</h2>
       <div className="row" id="project-container">
         {props.project.map(cardsList => {

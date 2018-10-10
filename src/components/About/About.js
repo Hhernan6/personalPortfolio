@@ -14,7 +14,7 @@ const About = () => {
                         Throughout the program, I have not only learned coding languages but, also professional development skills. I'm excited to continue learning and for my future as a web 
                         developer.
                     </p>
-                    <a href="facebook.com">View Resume</a>
+                    <a href="../../../static/HoracioResume.pdf" download>View Resume</a>
             </div>
         </div>
     )

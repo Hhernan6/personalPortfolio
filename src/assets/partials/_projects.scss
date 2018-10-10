@@ -1,79 +1,80 @@
 .projects-container {
-    h2 {
-        text-align: center;
-        font-size: 4rem;
-        font-family: 'Share', cursive;
-    }
-.row {
-  height: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.893);
-  &__card {
-    width: 365px;
-    margin-bottom: 50px;
-    height: 380px;
-    box-shadow: 0 0 30px 0 rgba(69, 68, 68, 0.653);
-    position: relative;
-    @media (min-width: 700px) {
-      width: 450px;
-    }
+    padding-top: 60px;
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Share", cursive;
+  }
+  .row {
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.893);
+    &__card {
+      width: 365px;
+      margin-bottom: 50px;
+      height: 380px;
+      box-shadow: 0 0 30px 0 rgba(69, 68, 68, 0.653);
+      position: relative;
+      @media (min-width: 700px) {
+        width: 450px;
+      }
 
-    img {
-      width: 100%;
-      height: 100%;
-    }
+      img {
+        width: 100%;
+        height: 100%;
+      }
 
-    &__content {
-      background-color: rgba(0, 0, 0, 0.829);
+      &__content {
+        background-color: rgba(0, 0, 0, 0.829);
 
-      padding: 30px;
-      height: 100%;
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      top: 0;
-      left: 0;
+        padding: 30px;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
 
-      h2 {
-        color: white;
-        font-family: "Share", cursive;
-        text-transform: uppercase;
-        margin-top: 0;
-        font-size: 2.2rem;
-        @media (min-width: 700px) {
-          font-size: 2.5rem;
+        h2 {
+          color: white;
+          font-family: "Share", cursive;
+          text-transform: uppercase;
+          margin-top: 0;
+          font-size: 2.2rem;
+          @media (min-width: 700px) {
+            font-size: 2.5rem;
+          }
         }
-      }
-      p {
-        text-align: center;
-        margin-top: 0;
-        color: white;
-        font-family: "Montserrat";
-        font-size: 1.05rem;
-        line-height: 1.5;
-      }
-      a {
-        width: 170px;
-        padding: 12px;
-        text-align: center;
-        color: rgb(66, 65, 65);
-        text-transform: uppercase;
-        background-color: rgb(189, 188, 188);
-        font-size: 1.5rem;
-        font-family: "Share", cursive;
-        border-radius: 10px;
-        margin: 0 auto;
-        display: block;
-        &:hover {
-            opacity: .9;
+        p {
+          text-align: center;
+          margin-top: 0;
+          color: white;
+          font-family: "Montserrat";
+          font-size: 1.05rem;
+          line-height: 1.5;
+        }
+        a {
+          width: 170px;
+          padding: 12px;
+          text-align: center;
+          color: rgb(66, 65, 65);
+          text-transform: uppercase;
+          background-color: rgb(189, 188, 188);
+          font-size: 1.5rem;
+          font-family: "Share", cursive;
+          border-radius: 10px;
+          margin: 0 auto;
+          display: block;
+          &:hover {
+            opacity: 0.9;
+          }
         }
       }
     }
   }
-}
 }
