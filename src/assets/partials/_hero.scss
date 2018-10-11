@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(1);
 padding: 0 30px;
   &__content {
     // padding: 30px 0;
@@ -34,7 +35,7 @@ padding: 0 30px;
     animation-delay: 4s;
     animation: opacityText 4s ease;
     border: solid 2px rgb(254, 254, 254);
-    padding: 30px; 
+    padding: 25px; 
 
     h1 {
       color: rgb(245, 245, 245);
