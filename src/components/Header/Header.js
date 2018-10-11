@@ -15,10 +15,10 @@ const Header = () => {
   const toggleMenu = () => {
     const modal = document.getElementById("mobile-nav");
     
-    if ( modal.style.margin === '-500px') 
-    modal.style.margin = '0';
+    if ( modal.style.marginLeft === '-500px' || modal.style.marginLeft === '') 
+    modal.style.marginLeft = '0';
     else {
-      modal.style.margin = "-500px";
+      modal.style.marginLeft = "-500px";
     }
   };
 
