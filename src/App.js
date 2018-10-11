@@ -23,7 +23,11 @@ class App extends Component {
           projects: res
         });
       });
+      window.onbeforeunload = () => {
+        window.scrollTo(0, 0);
+      };
   }
+  
 
   render() {
     console.log(this.state.data);

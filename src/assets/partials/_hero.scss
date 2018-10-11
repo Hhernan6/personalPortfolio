@@ -1,8 +1,7 @@
 @keyframes opacityText {
-
   from {
     opacity: 0;
-    transform: scale(1.4)
+    transform: scale(1.4);
   }
   to {
     opacity: 1;
@@ -27,15 +26,14 @@
   justify-content: center;
   align-items: center;
   transform: scale(1);
-padding: 0 30px;
+  padding: 0 30px;
   &__content {
-    // padding: 30px 0;
     background-color: rgba(14, 13, 13, 0.064);
     text-align: center;
     animation-delay: 4s;
     animation: opacityText 4s ease;
     border: solid 2px rgb(254, 254, 254);
-    padding: 25px; 
+    padding: 25px;
 
     h1 {
       color: rgb(245, 245, 245);

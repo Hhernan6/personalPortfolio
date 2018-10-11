@@ -10,9 +10,9 @@ const Contact = () => {
     elevator.elevate();
   };
 
-  window.onbeforeunload = () => {
-    window.scrollTo(0, 0);
-  };
+//   window.onbeforeunload = () => {
+//     window.scrollTo(0, 0);
+//   };
   return (
     <div className="contact-container" id="contact-container">
       <div className="contact-container__form">
