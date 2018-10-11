@@ -25,11 +25,9 @@
   padding: 0 30px;
   &__content {
     background-color: rgba(14, 13, 13, 0.123);
-    text-align: center;
-    animation-delay: 4s;
-    animation: opacityText 4s ease;
     border: solid 2px rgb(254, 254, 254);
     padding: 25px;
+    text-align: center;
 
     h1 {
       color: rgb(245, 245, 245);

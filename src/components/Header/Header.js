@@ -14,9 +14,11 @@ const Header = () => {
 
   const toggleMenu = () => {
     const modal = document.getElementById("mobile-nav");
-    if (modal.style.display === "block") modal.style.display = "none";
+    
+    if ( modal.style.margin === '-500px') 
+    modal.style.margin = '0';
     else {
-      modal.style.display = "block";
+      modal.style.margin = "-500px";
     }
   };
 
