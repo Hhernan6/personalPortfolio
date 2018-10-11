@@ -1,11 +1,6 @@
 import React from "react";
 
 const Header = () => {
-  // Get the navbar
-
-  // Get the offset position of the navbar
-
-  // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
   const stickyNavBar = () => {
     const navbar = document.getElementById("main-nav");
     const sticky = navbar.offsetTop;
@@ -19,21 +14,12 @@ const Header = () => {
 
   const toggleMenu = () => {
     const modal = document.getElementById("mobile-nav");
-
     if (modal.style.display === "block") modal.style.display = "none";
     else {
       modal.style.display = "block";
     }
   };
 
-  // const scroll = id => {
-  //   var elmnt = document.getElementById(id);
-  //   elmnt.scrollIntoView({
-  //     behavior: "smooth",
-  //     block: "end",
-  //     inline: "nearest"
-  //   });
-  // };
   return (
     <header>
       <nav className="mobile-nav" id="mobile-nav">
@@ -43,15 +29,19 @@ const Header = () => {
           onClick={toggleMenu}
         />
         <ul>
+          <li onClick={toggleMenu} className="main-nav__listItem ">
+            <a href="#about-container">About</a>
+          </li>
           <li
             onClick={toggleMenu}
-            className="main-nav__listItem ">
-            <a href="about-container">About</a>
+            className="main-nav__listItem main-nav__listItem--margin-top"
+          >
+            <a href="#contact-container">Contact</a>
           </li>
-          <li onClick={toggleMenu}  className="main-nav__listItem main-nav__listItem--margin-top" >
-            <a href="contact-container"> Contact</a>
-          </li>
-          <li  onClick={toggleMenu} className="main-nav__listItem main-nav__listItem--margin-top" >
+          <li
+            onClick={toggleMenu}
+            className="main-nav__listItem main-nav__listItem--margin-top"
+          >
             <a href="#project-container">Portfolio</a>
           </li>
         </ul>
