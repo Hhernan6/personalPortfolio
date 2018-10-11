@@ -1,16 +1,16 @@
 {
-  "main.css": "/personalPortfolio/static/css/main.2ff108b4.chunk.css",
-  "main.js": "/personalPortfolio/static/js/main.fa8840f7.chunk.js",
-  "main.js.map": "/personalPortfolio/static/js/main.fa8840f7.chunk.js.map",
+  "main.css": "/personalPortfolio/static/css/main.a4ea77f1.chunk.css",
+  "main.js": "/personalPortfolio/static/js/main.e9aa18f7.chunk.js",
+  "main.js.map": "/personalPortfolio/static/js/main.e9aa18f7.chunk.js.map",
   "static/js/1.63c22bd7.chunk.js": "/personalPortfolio/static/js/1.63c22bd7.chunk.js",
   "static/js/1.63c22bd7.chunk.js.map": "/personalPortfolio/static/js/1.63c22bd7.chunk.js.map",
   "runtime~main.js": "/personalPortfolio/static/js/runtime~main.4699102a.js",
   "runtime~main.js.map": "/personalPortfolio/static/js/runtime~main.4699102a.js.map",
-  "static/media/App.scss": "/personalPortfolio/static/media/mail-icon.e9419679.svg",
+  "static/media/App.scss": "/personalPortfolio/static/media/phone-icon.ce49021a.svg",
   "static/media/horacio.png": "/personalPortfolio/static/media/horacio.b14db7a2.png",
   "static/media/HoracioResume.pdf": "/personalPortfolio/static/media/HoracioResume.2475859f.pdf",
-  "static/css/main.2ff108b4.chunk.css.map": "/personalPortfolio/static/css/main.2ff108b4.chunk.css.map",
+  "static/css/main.a4ea77f1.chunk.css.map": "/personalPortfolio/static/css/main.a4ea77f1.chunk.css.map",
   "index.html": "/personalPortfolio/index.html",
-  "precache-manifest.961b0b817a19af55ae685574056affd0.js": "/personalPortfolio/precache-manifest.961b0b817a19af55ae685574056affd0.js",
+  "precache-manifest.7bd8fbc2575bd38ca577c80ccf39b808.js": "/personalPortfolio/precache-manifest.7bd8fbc2575bd38ca577c80ccf39b808.js",
   "service-worker.js": "/personalPortfolio/service-worker.js"
 }
