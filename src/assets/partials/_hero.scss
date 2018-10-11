@@ -1,22 +1,18 @@
-@keyframes opacityText {
-  from {
-    opacity: 0;
-    transform: scale(1.4);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
+// @keyframes opacityText {
+//   from {
+//     opacity: 0;
+//     transform: scale(1.4);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: scale(1);
+//   }
+// }
 
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(
-      to right,
-      rgba(28, 26, 26, 0.884),
-      rgba(29, 26, 26, 0.103)
-    ),
+  background-image: 
     url("img/hero-image.jpg");
   position: relative;
   background-repeat: no-repeat;
@@ -28,7 +24,7 @@
   transform: scale(1);
   padding: 0 30px;
   &__content {
-    background-color: rgba(14, 13, 13, 0.064);
+    background-color: rgba(14, 13, 13, 0.123);
     text-align: center;
     animation-delay: 4s;
     animation: opacityText 4s ease;
