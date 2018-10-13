@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "28c9ca22e62df5db4c7e027091168082",
-    "url": "/personalPortfolio/static/media/facebook-icon.28c9ca22.svg"
+    "revision": "007960d85f5934330a063b96174ea1af",
+    "url": "/personalPortfolio/static/media/arrow.007960d8.svg"
   },
   {
-    "revision": "aa890c21240dea68eb01",
+    "revision": "ef188dc188a2c933d31a",
     "url": "/personalPortfolio/static/css/main.fee091dd.chunk.css"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/phone-icon.ce49021a.svg"
   },
   {
-    "revision": "aa890c21240dea68eb01",
-    "url": "/personalPortfolio/static/js/main.aa890c21.chunk.js"
+    "revision": "ef188dc188a2c933d31a",
+    "url": "/personalPortfolio/static/js/main.ef188dc1.chunk.js"
   },
   {
-    "revision": "007960d85f5934330a063b96174ea1af",
-    "url": "/personalPortfolio/static/media/arrow.007960d8.svg"
+    "revision": "28c9ca22e62df5db4c7e027091168082",
+    "url": "/personalPortfolio/static/media/facebook-icon.28c9ca22.svg"
   },
   {
     "revision": "9c4147051bc597bdf34be9dae75ab9df",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/HoracioResume.9b40611e.pdf"
   },
   {
-    "revision": "ffc85aa7f406cc3c41110cf0a0984d25",
+    "revision": "411a4f7c26f5d0e30f819096ea224cfc",
     "url": "/personalPortfolio/index.html"
   }
 ];

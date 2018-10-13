@@ -1,7 +1,7 @@
 {
   "main.css": "/personalPortfolio/static/css/main.fee091dd.chunk.css",
-  "main.js": "/personalPortfolio/static/js/main.aa890c21.chunk.js",
-  "main.js.map": "/personalPortfolio/static/js/main.aa890c21.chunk.js.map",
+  "main.js": "/personalPortfolio/static/js/main.ef188dc1.chunk.js",
+  "main.js.map": "/personalPortfolio/static/js/main.ef188dc1.chunk.js.map",
   "static/js/1.63c22bd7.chunk.js": "/personalPortfolio/static/js/1.63c22bd7.chunk.js",
   "static/js/1.63c22bd7.chunk.js.map": "/personalPortfolio/static/js/1.63c22bd7.chunk.js.map",
   "runtime~main.js": "/personalPortfolio/static/js/runtime~main.4699102a.js",
@@ -11,6 +11,6 @@
   "static/media/HoracioResume.pdf": "/personalPortfolio/static/media/HoracioResume.9b40611e.pdf",
   "static/css/main.fee091dd.chunk.css.map": "/personalPortfolio/static/css/main.fee091dd.chunk.css.map",
   "index.html": "/personalPortfolio/index.html",
-  "precache-manifest.6b8d96c1d4802eeb5d6ff3075c92326c.js": "/personalPortfolio/precache-manifest.6b8d96c1d4802eeb5d6ff3075c92326c.js",
+  "precache-manifest.11d912f3f5c61f9df63b3937b4bbfffd.js": "/personalPortfolio/precache-manifest.11d912f3f5c61f9df63b3937b4bbfffd.js",
   "service-worker.js": "/personalPortfolio/service-worker.js"
 }
