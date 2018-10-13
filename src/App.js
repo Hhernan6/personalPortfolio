@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./assets/App.scss";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-
 import Contact from "./components/Contact/Contact";
 import Project from "./components/Projects/Projects";
 import About from "./components/About/About";
