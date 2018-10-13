@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "007960d85f5934330a063b96174ea1af",
-    "url": "/personalPortfolio/static/media/arrow.007960d8.svg"
+    "revision": "28c9ca22e62df5db4c7e027091168082",
+    "url": "/personalPortfolio/static/media/facebook-icon.28c9ca22.svg"
   },
   {
-    "revision": "e9aa18f7e717fdc5cf72",
-    "url": "/personalPortfolio/static/css/main.a4ea77f1.chunk.css"
+    "revision": "aa890c21240dea68eb01",
+    "url": "/personalPortfolio/static/css/main.fee091dd.chunk.css"
   },
   {
     "revision": "63c22bd750daf6fbc7ca",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/phone-icon.ce49021a.svg"
   },
   {
-    "revision": "e9aa18f7e717fdc5cf72",
-    "url": "/personalPortfolio/static/js/main.e9aa18f7.chunk.js"
+    "revision": "aa890c21240dea68eb01",
+    "url": "/personalPortfolio/static/js/main.aa890c21.chunk.js"
   },
   {
-    "revision": "28c9ca22e62df5db4c7e027091168082",
-    "url": "/personalPortfolio/static/media/facebook-icon.28c9ca22.svg"
+    "revision": "007960d85f5934330a063b96174ea1af",
+    "url": "/personalPortfolio/static/media/arrow.007960d8.svg"
   },
   {
     "revision": "9c4147051bc597bdf34be9dae75ab9df",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/horacio.b14db7a2.png"
   },
   {
-    "revision": "2475859f46a5753f352e08592406853d",
-    "url": "/personalPortfolio/static/media/HoracioResume.2475859f.pdf"
+    "revision": "9b40611e33924d5ee36973f4b130d5f7",
+    "url": "/personalPortfolio/static/media/HoracioResume.9b40611e.pdf"
   },
   {
-    "revision": "d3c9011786815def675da02b576c5ed1",
+    "revision": "ffc85aa7f406cc3c41110cf0a0984d25",
     "url": "/personalPortfolio/index.html"
   }
 ];
