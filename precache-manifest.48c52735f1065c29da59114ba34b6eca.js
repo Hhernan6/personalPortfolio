@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/arrow.007960d8.svg"
   },
   {
-    "revision": "ef188dc188a2c933d31a",
+    "revision": "4e773e39c9bea8a52ab0",
     "url": "/personalPortfolio/static/css/main.fee091dd.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/phone-icon.ce49021a.svg"
   },
   {
-    "revision": "ef188dc188a2c933d31a",
-    "url": "/personalPortfolio/static/js/main.ef188dc1.chunk.js"
+    "revision": "4e773e39c9bea8a52ab0",
+    "url": "/personalPortfolio/static/js/main.4e773e39.chunk.js"
   },
   {
     "revision": "28c9ca22e62df5db4c7e027091168082",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/personalPortfolio/static/media/horacio.b14db7a2.png"
   },
   {
-    "revision": "9b40611e33924d5ee36973f4b130d5f7",
-    "url": "/personalPortfolio/static/media/HoracioResume.9b40611e.pdf"
+    "revision": "c7601b3f6a6abaeb7643e4fd1bff8143",
+    "url": "/personalPortfolio/static/media/HoracioResume.c7601b3f.pdf"
   },
   {
-    "revision": "411a4f7c26f5d0e30f819096ea224cfc",
+    "revision": "0637efb6ed247a10554fac209266ea62",
     "url": "/personalPortfolio/index.html"
   }
 ];
