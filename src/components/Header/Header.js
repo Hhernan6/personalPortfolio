@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink, withRouter } from "react-router-dom";
 const Header = () => {
   const stickyNavBar = () => {
     const navbar = document.getElementById("main-nav");
@@ -32,35 +32,35 @@ const Header = () => {
         />
         <ul>
           <li onClick={toggleMenu} className="main-nav__listItem ">
-            <a href="#about-container">About</a>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li
             onClick={toggleMenu}
             className="main-nav__listItem main-nav__listItem--margin-top"
           >
-            <a href="#contact-container">Contact</a>
+            <NavLink to="/Contact">Contact</NavLink>
           </li>
           <li
             onClick={toggleMenu}
             className="main-nav__listItem main-nav__listItem--margin-top"
           >
-            <a href="#project-container">Portfolio</a>
+            <NavLink to="/Projects">Projects</NavLink>
           </li>
         </ul>
       </nav>
       <nav className="main-nav" id="main-nav">
         <ul className="main-nav__links">
           <li className="main-nav__listItem--logo">
-            <a href="/">HHH</a>
+            <NavLink to="/">HHH</NavLink>
           </li>
           <li className="main-nav__listItem">
-            <a href="#about-container">About</a>
+            <NavLink to="/About">About</NavLink>
           </li>
           <li className="main-nav__listItem">
-            <a href="#contact-container"> Contact</a>
+            <NavLink to="/Contact">Contact</NavLink>
           </li>
           <li className="main-nav__listItem">
-            <a href="#project-container">Projects</a>
+            <NavLink to="/Projects">Projects</NavLink>
           </li>
         </ul>
         <div
@@ -73,4 +73,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default withRouter(Header);
