@@ -1,7 +1,7 @@
 // @keyframes opacityText {
 //   from {
 //     opacity: 0;
-//     transform: scale(1.4);
+//     transform: scale(1.6);
 //   }
 //   to {
 //     opacity: 1;
@@ -10,11 +10,10 @@
 // }
 
 .hero {
-  width: 100%;
-  height: 89vh;
-  background: url("https://bit.ly/2z3O5bR") rgba(0, 0, 0, 0.781);
-  background-blend-mode: multiply;
-  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.775)), url("https://bit.ly/2urFhKB") ;
+  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -22,16 +21,16 @@
   align-items: center;
   background-attachment: fixed;
   transform: scale(1);
-  padding: 0 30px;
+  
   &__content {
-    background-color: rgba(14, 13, 13, 0.123);
+  animation-delay: 3s;
     border: solid 2px rgb(254, 254, 254);
-    padding: 25px;
+    padding: 32px;
     text-align: center;
-
+    animation: opacityText 3s ease-out;
     h1 {
       color: rgb(245, 245, 245);
-      font-size: 3.9rem;
+      font-size: 5rem;
       font-family: "Share", cursive;
     }
     p {

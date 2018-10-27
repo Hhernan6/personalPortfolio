@@ -1,5 +1,6 @@
 import React from "react";
 import Elevator from "elevator.js";
+import Footer from "../footer/Footer";
 const Contact = () => {
   const elevatorFunction = () => {
     let elevator = new Elevator({
@@ -14,6 +15,7 @@ const Contact = () => {
 //     window.scrollTo(0, 0);
 //   };
   return (
+    <div>
     <div className="contact-container" id="contact-container">
       <div className="contact-container__form">
         <h2>Get in Touch with Me</h2>
@@ -51,6 +53,8 @@ const Contact = () => {
         </div>
         <div onClick={() => elevatorFunction()} className="elevator-btn" />
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

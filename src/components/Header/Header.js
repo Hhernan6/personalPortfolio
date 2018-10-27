@@ -1,16 +1,7 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
 const Header = () => {
-  const stickyNavBar = () => {
-    const navbar = document.getElementById("main-nav");
-    const sticky = navbar.offsetTop;
-    if (window.pageYOffset > sticky) {
-      navbar.classList.add("sticky");
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  };
-  window.onscroll = () => stickyNavBar();
+
 
   const toggleMenu = () => {
     const modal = document.getElementById("mobile-nav");

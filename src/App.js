@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import "./assets/App.scss";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import About from "./components/About/About";
-import Footer from "./components/footer/Footer";
+
 import Home from "./components/Home/Home";
 class App extends Component {
   constructor() {
@@ -16,7 +15,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://api.jsonbin.io/b/5bb7cc37a97c597b3c6069fd/16")
+    fetch("https://api.jsonbin.io/b/5bd33044adf9f5652a65e946")
       .then(response => response.json())
       .then(res => {
         this.setState({
@@ -48,7 +47,7 @@ class App extends Component {
               </main>
             {/* </Switch> */}
 
-            <Footer />
+           
           </div>
         </BrowserRouter>
       </div>
