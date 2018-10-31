@@ -1,36 +1,22 @@
-// @keyframes opacityText {
-//   from {
-//     opacity: 0;
-//     transform: scale(1.6);
-//   }
-//   to {
-//     opacity: 1;
-//     transform: scale(1);
-//   }
-// }
 
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.775)), url("https://bit.ly/2urFhKB") ;
-  
+  background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.775)), url("https://bit.ly/2urFhKB");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
-  transform: scale(1);
-  
   &__content {
-  animation-delay: 3s;
-    border: solid 2px rgb(254, 254, 254);
-    padding: 32px;
+    animation-delay: 3s;
+    padding: 22px;
     text-align: center;
     animation: opacityText 3s ease-out;
     h1 {
       color: rgb(245, 245, 245);
-      font-size: 5rem;
+      font-size: 4.5rem;
       font-family: "Share", cursive;
     }
     p {

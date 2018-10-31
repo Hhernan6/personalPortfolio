@@ -3,10 +3,10 @@ import "./assets/App.scss";
 import Header from "./components/Header/Header";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 import About from "./components/About/About";
 
-import Home from "./components/Home/Home";
+import Hero from "./components/Home/Hero";
 class App extends Component {
   constructor() {
     super();
@@ -15,7 +15,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://api.jsonbin.io/b/5bd33044adf9f5652a65e946")
+    fetch("https://api.jsonbin.io/b/5bd33044adf9f5652a65e946/4")
       .then(response => response.json())
       .then(res => {
         this.setState({
@@ -31,25 +31,22 @@ class App extends Component {
     console.log(this.state.projects);
     return (
       <div>
-        <BrowserRouter>
+
           <div className="App">
             <Header />
+
             {/* <Switch> */}
               <main>
+                <Hero />
+                
                
-                <Route path="/" component={Home} exact/>
-                <Route
-                  path="/Projects"
-                  render={() => <Projects projects={this.state.projects} />}
-                />
-                <Route path="/About" component={About} />
-                <Route path="/Contact" component={Contact} />
+  
               </main>
             {/* </Switch> */}
 
            
           </div>
-        </BrowserRouter>
+
       </div>
     );
   }
