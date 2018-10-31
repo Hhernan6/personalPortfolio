@@ -1,10 +1,9 @@
 import React from "react";
 import ProjectCards from "./ProjectCards";
-import  Footer from "../footer/Footer"
 const Project = props => {
   return (
-    <div>
-    <div className="projects-container" id="project-container">
+
+    <div className="projects-container" id="projects-container">
     <h2>Projects | Challenges</h2>
       <div className="row" id="project-container">
         {props.projects.map(cardsList => {
@@ -20,8 +19,8 @@ const Project = props => {
         })}
       </div>
     </div>
-    <Footer />
-    </div>
+
+
   );
 };
 

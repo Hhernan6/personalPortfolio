@@ -1,9 +1,8 @@
 import React from "react";
-import Footer from "../footer/Footer";
 
 const About = () => {
   return (
-    <div>
+
     <div className="about-container" id="about-container">
       <img src={require("../../assets/horacio.png")} alt="Horacio" />
       <div className="about-container__content">
@@ -30,8 +29,8 @@ const About = () => {
         </a>
       </div>
     </div>
-    <Footer />
-    </div>
+ 
+
   );
 };
 

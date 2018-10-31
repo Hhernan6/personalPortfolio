@@ -1,21 +1,13 @@
 import React from "react";
-import Elevator from "elevator.js";
-import Footer from "../footer/Footer";
-const Contact = () => {
-  const elevatorFunction = () => {
-    let elevator = new Elevator({
-      element: document.querySelector(".elevator-btn"),
-      duration: 2000 // milliseconds
-    });
 
-    elevator.elevate();
-  };
+const Contact = () => {
+
 
 //   window.onbeforeunload = () => {
 //     window.scrollTo(0, 0);
 //   };
   return (
-    <div>
+ 
     <div className="contact-container" id="contact-container">
       <div className="contact-container__form">
         <h2>Get in Touch with Me</h2>
@@ -51,11 +43,11 @@ const Contact = () => {
           <div className="contact-container__phone-icon" />
           <a href="tel:7043094517">704-309-4517</a>
         </div>
-        <div onClick={() => elevatorFunction()} className="elevator-btn" />
+      
       </div>
     </div>
-    <Footer />
-    </div>
+
+
   );
 };
 

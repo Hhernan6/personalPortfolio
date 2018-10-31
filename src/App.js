@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 
 import Hero from "./components/Home/Hero";
+import Footer from "./components/footer/Footer";
 class App extends Component {
   constructor() {
     super();
@@ -15,7 +16,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://api.jsonbin.io/b/5bd33044adf9f5652a65e946/4")
+    fetch("https://api.jsonbin.io/b/5bd33044adf9f5652a65e946/6")
       .then(response => response.json())
       .then(res => {
         this.setState({
@@ -30,23 +31,17 @@ class App extends Component {
   render() {
     console.log(this.state.projects);
     return (
-      <div>
+      <div className="App">
+        <Header />
 
-          <div className="App">
-            <Header />
+        <main>
+          <Hero />
+          <Projects projects={this.state.projects} />
+          <About />
+          <Contact />
+        </main>
 
-            {/* <Switch> */}
-              <main>
-                <Hero />
-                
-               
-  
-              </main>
-            {/* </Switch> */}
-
-           
-          </div>
-
+        <Footer />
       </div>
     );
   }

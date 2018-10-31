@@ -1,11 +1,12 @@
 .contact-container {
-  background-color: rgb(255, 255, 255);
+
   width: 90%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   height: 100%;
   margin: 100px auto;
+  padding-top:100px;
   @media (min-width: 760px) {
     flex-direction: row;
     justify-content: space-around;
@@ -96,14 +97,14 @@
       font-family: 'Montserrat';
     }
     .contact-container__email-icon {
-      background-image: url('img/mail-icon.svg');
+      background-image: url('https://i.imgur.com/1j6VkXC.png');
       background-size: cover;
       height: 40px;
       width: 40px;
       margin: 5px auto;
     }
     .contact-container__phone-icon {
-      background-image: url('img/phone-icon.svg');
+      background-image: url('https://i.imgur.com/tcKY6wF.png');
       background-size: cover;
       height: 40px;
       width: 40px;
@@ -113,3 +114,4 @@
   }
 
 }
+
